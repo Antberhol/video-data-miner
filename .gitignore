@@ -1,0 +1,43 @@
+# Build output
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven wrapper binary (downloaded on first run)
+.mvn/wrapper/maven-wrapper.jar
+
+# Local H2 databases
+*.mv.db
+*.trace.db
+
+# Secrets / local config
+.env
+*.env
+application-local.properties
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+.factorypath
+.apt_generated
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Spring Initializr
+HELP.md
